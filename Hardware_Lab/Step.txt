@@ -1,0 +1,65 @@
+Hello this is Game step to run ROS after install
+
+# set ros source
+source /opt/ros/humble/setup.bash
+
+# set ROS topic for teleop_twist_keyboard to control the robot
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/robot01/cmd_vel
+
+# read data from ROS topic
+ros2 topic list
+ros2 topic info /robot01/cmd_vel
+ros2 topic echo /robot01/cmd_vel
+
+# install ros_serial for subscribe topic with c code
+
+cd ~/ros2_ws/src
+# Create the package
+ros2 pkg create --build-type ament_cmake my_teleop_subscriber --dependencies rclcpp geometry_msgs
+cd ~/ros2_ws
+
+
+cd ~/ros2_ws
+colcon build --symlink-install
+source install/setup.bash
+
+ros2 run my_teleop_subscriber teleop_subscriber
+
+
+
+# test dirve run
+sudo gcc drive_test.c -o motor-test -O2
+sudo ./motor-test
+
+# install Hokuyo && run
+source /opt/ros/humble/setup.bash
+
+sudo apt install ros-humble-urg-node
+
+sudo ls /dev/ttyACM*
+sudo ls /dev/ttyUSB*
+
+ros2 launch rplidar_ros rplidar_a1_launch.py
+
+ros2 run urg_node urg_node_driver --ros-args -p serial_port:=/dev/ttyACM0 -p serial_baud:=115200
+
+ros2 launch hls_lfcd_lds_driver hlds_laser.launch.py
+
+ros2 run tf2_ros static_transform_publisher 0 0 1 0 0 0 laser base_link
+
+## checking pkg
+ros2 pkg prefix urg_node
+ls /opt/ros/humble/lib/urg_node
+ros2 pkg executables | grep urg_node
+
+## check topic /scan
+ros2 topic list
+ros2 topic echo /scan
+
+ros2 run tf2_tools view_frames
+
+
+# run rviz
+source /opt/ros/humble/setup.bash
+
+ros2 run rviz2 rviz2

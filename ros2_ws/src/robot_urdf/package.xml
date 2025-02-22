@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_urdf</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+
+  <maintainer email="emag51@todo.todo">emag51</maintainer>
+  <license>Apache-2.0</license>
+
+  <url type="website">http://ros.org/wiki/urdf_tutorial</url>
+
+  <!-- Use ament_cmake instead of catkin -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies required during build -->
+  <depend>roslaunch</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

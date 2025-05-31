@@ -1,0 +1,35 @@
+[2.729s] Invoking command in '/home/emag51/ros2_ws/src/slam_toolbox_launch': PYTHONPATH=/home/emag51/ros2_ws/build/slam_toolbox_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_toolbox_launch build --build-base /home/emag51/ros2_ws/build/slam_toolbox_launch/build install --record /home/emag51/ros2_ws/build/slam_toolbox_launch/install.log --single-version-externally-managed install_data
+[3.702s] running egg_info
+[3.712s] creating ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info
+[3.712s] writing ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/PKG-INFO
+[3.712s] writing dependency_links to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/dependency_links.txt
+[3.713s] writing entry points to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/entry_points.txt
+[3.713s] writing requirements to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/requires.txt
+[3.713s] writing top-level names to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/top_level.txt
+[3.713s] writing manifest file '../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/SOURCES.txt'
+[3.713s] reading manifest file '../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/SOURCES.txt'
+[3.721s] writing manifest file '../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/SOURCES.txt'
+[3.727s] running build
+[3.727s] running build_py
+[3.728s] creating /home/emag51/ros2_ws/build/slam_toolbox_launch/build
+[3.728s] creating /home/emag51/ros2_ws/build/slam_toolbox_launch/build/lib
+[3.728s] creating /home/emag51/ros2_ws/build/slam_toolbox_launch/build/lib/slam_toolbox_launch
+[3.731s] copying slam_toolbox_launch/__init__.py -> /home/emag51/ros2_ws/build/slam_toolbox_launch/build/lib/slam_toolbox_launch
+[3.732s] running install
+[3.732s] running install_lib
+[3.732s] creating /home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch
+[3.732s] copying /home/emag51/ros2_ws/build/slam_toolbox_launch/build/lib/slam_toolbox_launch/__init__.py -> /home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch
+[3.733s] byte-compiling /home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch/__init__.py to __init__.cpython-310.pyc
+[3.733s] running install_data
+[3.733s] creating /home/emag51/ros2_ws/install/slam_toolbox_launch/share/ament_index
+[3.733s] creating /home/emag51/ros2_ws/install/slam_toolbox_launch/share/ament_index/resource_index
+[3.733s] creating /home/emag51/ros2_ws/install/slam_toolbox_launch/share/ament_index/resource_index/packages
+[3.734s] copying resource/slam_toolbox_launch -> /home/emag51/ros2_ws/install/slam_toolbox_launch/share/ament_index/resource_index/packages
+[3.734s] copying package.xml -> /home/emag51/ros2_ws/install/slam_toolbox_launch/share/slam_toolbox_launch
+[3.740s] creating /home/emag51/ros2_ws/install/slam_toolbox_launch/share/slam_toolbox_launch/launch
+[3.741s] copying launch/slam_toolbox.py -> /home/emag51/ros2_ws/install/slam_toolbox_launch/share/slam_toolbox_launch/launch
+[3.741s] running install_egg_info
+[3.742s] Copying ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info to /home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch-0.0.0-py3.10.egg-info
+[3.742s] running install_scripts
+[3.816s] writing list of installed files to '/home/emag51/ros2_ws/build/slam_toolbox_launch/install.log'
+[3.928s] Invoked command in '/home/emag51/ros2_ws/src/slam_toolbox_launch' returned '0': PYTHONPATH=/home/emag51/ros2_ws/build/slam_toolbox_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_toolbox_launch build --build-base /home/emag51/ros2_ws/build/slam_toolbox_launch/build install --record /home/emag51/ros2_ws/build/slam_toolbox_launch/install.log --single-version-externally-managed install_data

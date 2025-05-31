@@ -1,0 +1,6 @@
+Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake /home/emag51/ros2_ws/src/robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/robot_control
+Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake /home/emag51/ros2_ws/src/robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/robot_control
+Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake --build /home/emag51/ros2_ws/build/robot_control -- -j4 -l4
+Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake --build /home/emag51/ros2_ws/build/robot_control -- -j4 -l4
+Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake --install /home/emag51/ros2_ws/build/robot_control
+Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake --install /home/emag51/ros2_ws/build/robot_control

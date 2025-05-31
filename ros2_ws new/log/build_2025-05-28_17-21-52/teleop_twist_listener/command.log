@@ -1,0 +1,4 @@
+Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener
+Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener

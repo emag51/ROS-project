@@ -1,0 +1,37 @@
+[0.144s] Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+[1.040s] [ 50%] [32mBuilding C object CMakeFiles/teleop_listener.dir/src/teleop_listener.c.o[0m
+[2.552s] [01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:[m[K In function ‘[01m[Kcmd_vel_callback[m[K’:
+[2.565s] [01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[2.565s]    80 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+[2.566s]       |                           [01;35m[K^~~~[m[K
+[2.568s] [01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:12:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’
+[2.568s]    11 | #include <geometry_msgs/msg/twist.h>
+[2.568s]   +++ |+[32m[K#include <math.h>[m[K
+[2.569s]    12 | 
+[2.569s] [01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+[2.569s]    80 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+[2.570s]       |                           [01;35m[K^~~~[m[K
+[2.570s] [01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’
+[3.165s] [100%] [32m[1mLinking C executable teleop_listener[0m
+[4.605s] [100%] Built target teleop_listener
+[4.649s] Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+[4.734s] Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener
+[4.786s] -- Install configuration: ""
+[4.839s] -- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/lib/teleop_twist_listener/teleop_listener
+[4.842s] -- Set runtime path of "/home/emag51/ros2_ws/install/teleop_twist_listener/lib/teleop_twist_listener/teleop_listener" to ""
+[4.846s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/package_run_dependencies/teleop_twist_listener
+[4.847s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/parent_prefix_path/teleop_twist_listener
+[4.847s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.sh
+[4.847s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.dsv
+[4.848s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.sh
+[4.848s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.dsv
+[4.848s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.bash
+[4.849s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.sh
+[4.849s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.zsh
+[4.850s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.dsv
+[4.851s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.dsv
+[4.852s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/packages/teleop_twist_listener
+[4.853s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig.cmake
+[4.853s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig-version.cmake
+[4.854s] -- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.xml
+[4.855s] Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener

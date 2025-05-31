@@ -1,0 +1,16 @@
+/home/emag51/ros2_ws/install/teleop_twist_listener/lib/teleop_twist_listener/teleop_listener
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/package_run_dependencies/teleop_twist_listener
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/parent_prefix_path/teleop_twist_listener
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.sh
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.dsv
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.sh
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.dsv
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.bash
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.sh
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.zsh
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.dsv
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.dsv
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/packages/teleop_twist_listener
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig.cmake
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig-version.cmake
+/home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.xml

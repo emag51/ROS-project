@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.001252] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.001428] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001513] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.001586] (-) JobUnselected: {'identifier': 'rplidar_launch'}
+[0.001653] (-) JobUnselected: {'identifier': 'slam_toolbox_launch'}
+[0.001746] (teleop_twist_listener) JobQueued: {'identifier': 'teleop_twist_listener', 'dependencies': OrderedDict()}
+[0.003172] (teleop_twist_listener) JobStarted: {'identifier': 'teleop_twist_listener'}
+[0.031666] (teleop_twist_listener) JobProgress: {'identifier': 'teleop_twist_listener', 'progress': 'cmake'}
+[0.082664] (teleop_twist_listener) Command: {'cmd': ['/usr/bin/cmake', '/home/emag51/ros2_ws/src/teleop_twist_listener', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/teleop_twist_listener'], 'cwd': '/home/emag51/ros2_ws/build/teleop_twist_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emag51'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '4410'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emag51'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1393'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4661'), ('BUNDLED_DEBUGPY_PATH', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5765'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'emag51'), ('JOURNAL_STREAM', '8:48695'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emag51'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/emag51/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/emag51-Embedded-Box-PC-5000:@/tmp/.ICE-unix/4617,unix/emag51-Embedded-Box-PC-5000:/tmp/.ICE-unix/4617'), ('INVOCATION_ID', '3b181ae76f4b4b39bb3b3b395481275f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b623cade9508d185.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1e03f6c2cc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emag51/ros2_ws/build/teleop_twist_listener'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.105436] (-) TimerEvent: {}
+[0.209666] (-) TimerEvent: {}
+[0.310261] (-) TimerEvent: {}
+[0.410877] (-) TimerEvent: {}
+[0.511518] (-) TimerEvent: {}
+[0.591303] (teleop_twist_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.611664] (-) TimerEvent: {}
+[0.712267] (-) TimerEvent: {}
+[0.812840] (-) TimerEvent: {}
+[0.913367] (-) TimerEvent: {}
+[1.013875] (-) TimerEvent: {}
+[1.114442] (-) TimerEvent: {}
+[1.214966] (-) TimerEvent: {}
+[1.315523] (-) TimerEvent: {}
+[1.416121] (-) TimerEvent: {}
+[1.516652] (-) TimerEvent: {}
+[1.617255] (-) TimerEvent: {}
+[1.717850] (-) TimerEvent: {}
+[1.818407] (-) TimerEvent: {}
+[1.918983] (-) TimerEvent: {}
+[2.019557] (-) TimerEvent: {}
+[2.120189] (-) TimerEvent: {}
+[2.220789] (-) TimerEvent: {}
+[2.321346] (-) TimerEvent: {}
+[2.421890] (-) TimerEvent: {}
+[2.522483] (-) TimerEvent: {}
+[2.623233] (-) TimerEvent: {}
+[2.723804] (-) TimerEvent: {}
+[2.824368] (-) TimerEvent: {}
+[2.925028] (-) TimerEvent: {}
+[3.025638] (-) TimerEvent: {}
+[3.075399] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)\n'}
+[3.125846] (-) TimerEvent: {}
+[3.226377] (-) TimerEvent: {}
+[3.326915] (-) TimerEvent: {}
+[3.427596] (-) TimerEvent: {}
+[3.528173] (-) TimerEvent: {}
+[3.628738] (-) TimerEvent: {}
+[3.729362] (-) TimerEvent: {}
+[3.829923] (-) TimerEvent: {}
+[3.930518] (-) TimerEvent: {}
+[3.966809] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.030748] (-) TimerEvent: {}
+[4.033047] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.120804] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.132210] (-) TimerEvent: {}
+[4.232755] (-) TimerEvent: {}
+[4.238982] (teleop_twist_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.332906] (-) TimerEvent: {}
+[4.349111] (teleop_twist_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.433054] (-) TimerEvent: {}
+[4.533679] (-) TimerEvent: {}
+[4.618454] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.633870] (-) TimerEvent: {}
+[4.642164] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.734068] (-) TimerEvent: {}
+[4.834616] (-) TimerEvent: {}
+[4.936964] (-) TimerEvent: {}
+[5.037582] (-) TimerEvent: {}
+[5.139230] (-) TimerEvent: {}
+[5.239770] (-) TimerEvent: {}
+[5.311399] (teleop_twist_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.339957] (-) TimerEvent: {}
+[5.440608] (-) TimerEvent: {}
+[5.541253] (-) TimerEvent: {}
+[5.591799] (teleop_twist_listener) StdoutLine: {'line': b'-- Found rclc: 4.0.2 (/opt/ros/humble/share/rclc/cmake)\n'}
+[5.641404] (-) TimerEvent: {}
+[5.741957] (-) TimerEvent: {}
+[5.842520] (-) TimerEvent: {}
+[5.869539] (teleop_twist_listener) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.942689] (-) TimerEvent: {}
+[6.043251] (-) TimerEvent: {}
+[6.143768] (-) TimerEvent: {}
+[6.244323] (-) TimerEvent: {}
+[6.344926] (-) TimerEvent: {}
+[6.385318] (teleop_twist_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.445133] (-) TimerEvent: {}
+[6.532896] (teleop_twist_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[6.545255] (-) TimerEvent: {}
+[6.546157] (teleop_twist_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/emag51/ros2_ws/build/teleop_twist_listener\n'}
+[6.572418] (teleop_twist_listener) CommandEnded: {'returncode': 0}
+[6.581961] (teleop_twist_listener) JobProgress: {'identifier': 'teleop_twist_listener', 'progress': 'build'}
+[6.582150] (teleop_twist_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emag51/ros2_ws/build/teleop_twist_listener', '--', '-j4', '-l4'], 'cwd': '/home/emag51/ros2_ws/build/teleop_twist_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emag51'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '4410'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emag51'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1393'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4661'), ('BUNDLED_DEBUGPY_PATH', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5765'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'emag51'), ('JOURNAL_STREAM', '8:48695'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emag51'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/emag51/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/emag51-Embedded-Box-PC-5000:@/tmp/.ICE-unix/4617,unix/emag51-Embedded-Box-PC-5000:/tmp/.ICE-unix/4617'), ('INVOCATION_ID', '3b181ae76f4b4b39bb3b3b395481275f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b623cade9508d185.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1e03f6c2cc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emag51/ros2_ws/build/teleop_twist_listener'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[6.645408] (-) TimerEvent: {}
+[6.746006] (-) TimerEvent: {}
+[6.765219] (teleop_twist_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target teleop_listener\x1b[0m\n'}
+[6.846232] (-) TimerEvent: {}
+[6.920277] (teleop_twist_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/teleop_listener.dir/src/teleop_listener.c.o\x1b[0m\n'}
+[6.946382] (-) TimerEvent: {}
+[7.046960] (-) TimerEvent: {}
+[7.147562] (-) TimerEvent: {}
+[7.248146] (-) TimerEvent: {}
+[7.348730] (-) TimerEvent: {}
+[7.449271] (-) TimerEvent: {}
+[7.549822] (-) TimerEvent: {}
+[7.650424] (-) TimerEvent: {}
+[7.751158] (-) TimerEvent: {}
+[7.851785] (-) TimerEvent: {}
+[7.952363] (-) TimerEvent: {}
+[8.052904] (-) TimerEvent: {}
+[8.153440] (-) TimerEvent: {}
+[8.254062] (-) TimerEvent: {}
+[8.354655] (-) TimerEvent: {}
+[8.424750] (teleop_twist_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_callback\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.438390] (teleop_twist_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kfabs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.438845] (teleop_twist_listener) StderrLine: {'line': b'   80 |     int right_pwm = (int)(\x1b[01;35m\x1b[Kfabs\x1b[m\x1b[K(linear_x) * 255 + fabs(angular_z) * 128);\n'}
+[8.439131] (teleop_twist_listener) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.441003] (teleop_twist_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:12:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinclude \xe2\x80\x98\x1b[01m\x1b[K<math.h>\x1b[m\x1b[K\xe2\x80\x99 or provide a declaration of \xe2\x80\x98\x1b[01m\x1b[Kfabs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.441400] (teleop_twist_listener) StderrLine: {'line': b'   11 | #include <geometry_msgs/msg/twist.h>\n'}
+[8.441648] (teleop_twist_listener) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <math.h>\x1b[m\x1b[K\n'}
+[8.441869] (teleop_twist_listener) StderrLine: {'line': b'   12 | \n'}
+[8.442087] (teleop_twist_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kincompatible implicit declaration of built-in function \xe2\x80\x98\x1b[01m\x1b[Kfabs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch\x07-Wbuiltin-declaration-mismatch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.442352] (teleop_twist_listener) StderrLine: {'line': b'   80 |     int right_pwm = (int)(\x1b[01;35m\x1b[Kfabs\x1b[m\x1b[K(linear_x) * 255 + fabs(angular_z) * 128);\n'}
+[8.442574] (teleop_twist_listener) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.442783] (teleop_twist_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinclude \xe2\x80\x98\x1b[01m\x1b[K<math.h>\x1b[m\x1b[K\xe2\x80\x99 or provide a declaration of \xe2\x80\x98\x1b[01m\x1b[Kfabs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.454808] (-) TimerEvent: {}
+[8.555397] (-) TimerEvent: {}
+[8.655946] (-) TimerEvent: {}
+[8.756542] (-) TimerEvent: {}
+[8.857154] (-) TimerEvent: {}
+[8.957684] (-) TimerEvent: {}
+[9.028781] (teleop_twist_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable teleop_listener\x1b[0m\n'}
+[9.057875] (-) TimerEvent: {}
+[9.158519] (-) TimerEvent: {}
+[9.259135] (-) TimerEvent: {}
+[9.359749] (-) TimerEvent: {}
+[9.460367] (-) TimerEvent: {}
+[9.560973] (-) TimerEvent: {}
+[9.655171] (teleop_twist_listener) StdoutLine: {'line': b'[100%] Built target teleop_listener\n'}
+[9.661165] (-) TimerEvent: {}
+[9.693770] (teleop_twist_listener) CommandEnded: {'returncode': 0}
+[9.702582] (teleop_twist_listener) JobProgress: {'identifier': 'teleop_twist_listener', 'progress': 'install'}
+[9.735347] (teleop_twist_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emag51/ros2_ws/build/teleop_twist_listener'], 'cwd': '/home/emag51/ros2_ws/build/teleop_twist_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emag51'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '4410'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emag51'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1393'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4661'), ('BUNDLED_DEBUGPY_PATH', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5765'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'emag51'), ('JOURNAL_STREAM', '8:48695'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emag51'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/emag51/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/emag51-Embedded-Box-PC-5000:@/tmp/.ICE-unix/4617,unix/emag51-Embedded-Box-PC-5000:/tmp/.ICE-unix/4617'), ('INVOCATION_ID', '3b181ae76f4b4b39bb3b3b395481275f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b623cade9508d185.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1e03f6c2cc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'GNOME'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emag51/ros2_ws/build/teleop_twist_listener'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[9.761581] (-) TimerEvent: {}
+[9.762197] (teleop_twist_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.763354] (teleop_twist_listener) StdoutLine: {'line': b'-- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/lib/teleop_twist_listener/teleop_listener\n'}
+[9.765012] (teleop_twist_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/emag51/ros2_ws/install/teleop_twist_listener/lib/teleop_twist_listener/teleop_listener" to ""\n'}
+[9.765768] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/package_run_dependencies/teleop_twist_listener\n'}
+[9.766312] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/parent_prefix_path/teleop_twist_listener\n'}
+[9.766701] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.sh\n'}
+[9.766940] (teleop_twist_listener) StdoutLine: {'line': b'-- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/ament_prefix_path.dsv\n'}
+[9.767701] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.sh\n'}
+[9.768020] (teleop_twist_listener) StdoutLine: {'line': b'-- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/environment/path.dsv\n'}
+[9.768308] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.bash\n'}
+[9.768576] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.sh\n'}
+[9.768798] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.zsh\n'}
+[9.769013] (teleop_twist_listener) StdoutLine: {'line': b'-- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/local_setup.dsv\n'}
+[9.769881] (teleop_twist_listener) StdoutLine: {'line': b'-- Installing: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.dsv\n'}
+[9.770259] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/ament_index/resource_index/packages/teleop_twist_listener\n'}
+[9.770508] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig.cmake\n'}
+[9.770728] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/cmake/teleop_twist_listenerConfig-version.cmake\n'}
+[9.770946] (teleop_twist_listener) StdoutLine: {'line': b'-- Up-to-date: /home/emag51/ros2_ws/install/teleop_twist_listener/share/teleop_twist_listener/package.xml\n'}
+[9.780543] (teleop_twist_listener) CommandEnded: {'returncode': 0}
+[9.841462] (teleop_twist_listener) JobEnded: {'identifier': 'teleop_twist_listener', 'rc': 0}
+[9.844031] (-) EventReactorShutdown: {}

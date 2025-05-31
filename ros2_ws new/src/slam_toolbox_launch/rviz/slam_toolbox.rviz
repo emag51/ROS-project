@@ -1,0 +1,20 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Map
+      Type: rviz_default_plugins/Map
+      Topic: /map
+      Enabled: true
+    - Name: LaserScan
+      Type: rviz_default_plugins/LaserScan
+      Topic: /scan
+      Enabled: true
+    - Name: TF
+      Type: rviz_default_plugins/TF
+      Enabled: true
+    - Name: Odometry
+      Type: rviz_default_plugins/Odometry
+      Topic: /odom
+      Enabled: true
+    
+  Fixed Frame: map

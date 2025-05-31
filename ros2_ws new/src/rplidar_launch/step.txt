@@ -1,0 +1,14 @@
+create ros workspace
+
+### create lidar package
+ros2 pkg create --build-type ament_python rplidar_launch
+### edit file
+### build all
+colcon build
+### build select package
+colcon build --packages-select rplidar_launch
+### source workspace
+cd ~/ros2_ws
+source install/setup.bash
+### run rplidar file
+ros2 launch rplidar_launch rplidar_launch.py

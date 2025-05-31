@@ -1,0 +1,9 @@
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_python my_robot_description
+mkdir -p my_robot_description/urdf
+
+sudo apt install ros-humble-robot-state-publisher
+
+colcon build --packages-select my_robot_description
+source ~/ros2_ws/install/setup.bash
+ros2 launch my_robot_description robot_description.launch.py

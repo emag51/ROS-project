@@ -1,0 +1,6 @@
+Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake /home/emag51/ros2_ws/src/teleop_twist_listener -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/teleop_twist_listener
+Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake /home/emag51/ros2_ws/src/teleop_twist_listener -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/teleop_twist_listener
+Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --build /home/emag51/ros2_ws/build/teleop_twist_listener -- -j4 -l4
+Invoking command in '/home/emag51/ros2_ws/build/teleop_twist_listener': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener
+Invoked command in '/home/emag51/ros2_ws/build/teleop_twist_listener' returned '0': /usr/bin/cmake --install /home/emag51/ros2_ws/build/teleop_twist_listener

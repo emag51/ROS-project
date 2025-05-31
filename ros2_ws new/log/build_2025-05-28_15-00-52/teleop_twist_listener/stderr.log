@@ -1,0 +1,12 @@
+[01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:[m[K In function ‘[01m[Kcmd_vel_callback[m[K’:
+[01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   80 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+      |                           [01;35m[K^~~~[m[K
+[01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:12:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’
+   11 | #include <geometry_msgs/msg/twist.h>
+  +++ |+[32m[K#include <math.h>[m[K
+   12 | 
+[01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+   80 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+      |                           [01;35m[K^~~~[m[K
+[01m[K/home/emag51/ros2_ws/src/teleop_twist_listener/src/teleop_listener.c:80:27:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’

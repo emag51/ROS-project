@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000712] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000787] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000853] (-) JobUnselected: {'identifier': 'rplidar_launch'}
+[0.001224] (-) JobUnselected: {'identifier': 'teleop_twist_listener'}
+[0.001323] (slam_toolbox_launch) JobQueued: {'identifier': 'slam_toolbox_launch', 'dependencies': OrderedDict()}
+[0.001396] (slam_toolbox_launch) JobStarted: {'identifier': 'slam_toolbox_launch'}
+[0.096511] (-) TimerEvent: {}
+[0.196988] (-) TimerEvent: {}
+[0.297520] (-) TimerEvent: {}
+[0.398971] (-) TimerEvent: {}
+[0.499477] (-) TimerEvent: {}
+[0.602978] (-) TimerEvent: {}
+[0.703514] (-) TimerEvent: {}
+[0.804057] (-) TimerEvent: {}
+[0.904577] (-) TimerEvent: {}
+[1.005155] (-) TimerEvent: {}
+[1.105843] (-) TimerEvent: {}
+[1.209781] (-) TimerEvent: {}
+[1.311657] (-) TimerEvent: {}
+[1.412591] (-) TimerEvent: {}
+[1.514437] (-) TimerEvent: {}
+[1.615339] (-) TimerEvent: {}
+[1.717139] (-) TimerEvent: {}
+[1.819336] (-) TimerEvent: {}
+[1.920926] (-) TimerEvent: {}
+[2.022624] (-) TimerEvent: {}
+[2.123216] (-) TimerEvent: {}
+[2.223720] (-) TimerEvent: {}
+[2.324741] (-) TimerEvent: {}
+[2.425303] (-) TimerEvent: {}
+[2.525829] (-) TimerEvent: {}
+[2.627973] (-) TimerEvent: {}
+[2.728481] (-) TimerEvent: {}
+[2.829004] (-) TimerEvent: {}
+[2.837281] (slam_toolbox_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/slam_toolbox_launch', 'build', '--build-base', '/home/emag51/ros2_ws/build/slam_toolbox_launch/build', 'install', '--record', '/home/emag51/ros2_ws/build/slam_toolbox_launch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/emag51/ros2_ws/src/slam_toolbox_launch', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'emag51', 'LC_TIME': 'th_TH.UTF-8', 'SSH_AGENT_PID': '4410', 'ROS_PACKAGE_PATH': '/home/emag51/ros2_ws/install/teleop_twist_listener/share:/home/emag51/ros2_ws/install/robot_control/share', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/emag51', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1393', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '4661', 'BUNDLED_DEBUGPY_PATH': '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5765', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/emag51/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'emag51', 'JOURNAL_STREAM': '8:48695', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/emag51/ros2_ws/install/teleop_twist_listener/lib/x86_64-linux-gnu/pkgconfig:/home/emag51/ros2_ws/install/teleop_twist_listener/lib/pkgconfig:/home/emag51/ros2_ws/install/robot_control/lib/x86_64-linux-gnu/pkgconfig:/home/emag51/ros2_ws/install/robot_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emag51', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/emag51/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/emag51-Embedded-Box-PC-5000:@/tmp/.ICE-unix/4617,unix/emag51-Embedded-Box-PC-5000:/tmp/.ICE-unix/4617', 'INVOCATION_ID': '3b181ae76f4b4b39bb3b3b395481275f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/emag51/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b623cade9508d185.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1e03f6c2cc.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/emag51/ros2_ws/install/slam_toolbox_launch:/home/emag51/ros2_ws/install/rplidar_launch:/home/emag51/ros2_ws/install/rf2o_laser_odometry:/home/emag51/ros2_ws/install/my_robot_description:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'GNOME', 'UID': '1000', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emag51/ros2_ws/build/slam_toolbox_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/emag51/ros2_ws/build/slam_toolbox_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages:/home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages:/home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages:/home/emag51/ros2_ws/install/my_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/emag51/ros2_ws/install/teleop_twist_listener:/home/emag51/ros2_ws/install/robot_control:/home/emag51/ros2_ws/install/rf2o_laser_odometry'}, 'shell': False}
+[2.929144] (-) TimerEvent: {}
+[3.030113] (-) TimerEvent: {}
+[3.132973] (-) TimerEvent: {}
+[3.233478] (-) TimerEvent: {}
+[3.333983] (-) TimerEvent: {}
+[3.437981] (-) TimerEvent: {}
+[3.538980] (-) TimerEvent: {}
+[3.641987] (-) TimerEvent: {}
+[3.742513] (-) TimerEvent: {}
+[3.834923] (slam_toolbox_launch) StdoutLine: {'line': b'running egg_info\n'}
+[3.838540] (slam_toolbox_launch) StdoutLine: {'line': b'writing ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/PKG-INFO\n'}
+[3.839702] (slam_toolbox_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/dependency_links.txt\n'}
+[3.840740] (slam_toolbox_launch) StdoutLine: {'line': b'writing entry points to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/entry_points.txt\n'}
+[3.841060] (slam_toolbox_launch) StdoutLine: {'line': b'writing requirements to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/requires.txt\n'}
+[3.841306] (slam_toolbox_launch) StdoutLine: {'line': b'writing top-level names to ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/top_level.txt\n'}
+[3.842611] (-) TimerEvent: {}
+[3.851225] (slam_toolbox_launch) StdoutLine: {'line': b"reading manifest file '../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/SOURCES.txt'\n"}
+[3.878366] (slam_toolbox_launch) StdoutLine: {'line': b"writing manifest file '../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info/SOURCES.txt'\n"}
+[3.883039] (slam_toolbox_launch) StdoutLine: {'line': b'running build\n'}
+[3.883429] (slam_toolbox_launch) StdoutLine: {'line': b'running build_py\n'}
+[3.883710] (slam_toolbox_launch) StdoutLine: {'line': b'running install\n'}
+[3.884006] (slam_toolbox_launch) StdoutLine: {'line': b'running install_lib\n'}
+[3.888372] (slam_toolbox_launch) StdoutLine: {'line': b'running install_data\n'}
+[3.889640] (slam_toolbox_launch) StdoutLine: {'line': b'copying launch/slam_toolbox.py -> /home/emag51/ros2_ws/install/slam_toolbox_launch/share/slam_toolbox_launch/launch\n'}
+[3.889978] (slam_toolbox_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.906598] (slam_toolbox_launch) StdoutLine: {'line': b"removing '/home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.910785] (slam_toolbox_launch) StdoutLine: {'line': b'Copying ../../build/slam_toolbox_launch/slam_toolbox_launch.egg-info to /home/emag51/ros2_ws/install/slam_toolbox_launch/lib/python3.10/site-packages/slam_toolbox_launch-0.0.0-py3.10.egg-info\n'}
+[3.937530] (slam_toolbox_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[3.942774] (-) TimerEvent: {}
+[4.038542] (slam_toolbox_launch) StdoutLine: {'line': b"writing list of installed files to '/home/emag51/ros2_ws/build/slam_toolbox_launch/install.log'\n"}
+[4.046777] (-) TimerEvent: {}
+[4.121366] (slam_toolbox_launch) CommandEnded: {'returncode': 0}
+[4.146977] (-) TimerEvent: {}
+[4.247949] (-) TimerEvent: {}
+[4.279983] (slam_toolbox_launch) JobEnded: {'identifier': 'slam_toolbox_launch', 'rc': 0}
+[4.281585] (-) EventReactorShutdown: {}

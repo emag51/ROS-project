@@ -1,0 +1,12 @@
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_python slam_toolbox_launch
+
+mkdir -p ~/ros2_ws/src/slam_toolbox_launch/launch
+nano ~/ros2_ws/src/slam_toolbox_launch/launch/slam_toolbox.py
+
+cd ~/ros2_ws
+colcon build --packages-select slam_toolbox_launch
+source install/setup.bash
+
+ros2 launch slam_toolbox_launch slam_toolbox.py
+q

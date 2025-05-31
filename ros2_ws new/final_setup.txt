@@ -1,0 +1,13 @@
+1. run rplidar node
+source ~/ros2_ws/install/setup.bash
+ros2 launch rplidar_launch rplidar_launch.py
+
+2. run rf2_odometry node
+source ~/ros2_ws/install/setup.bash
+ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py
+
+3. run slam_toolbox node
+source ~/ros2_ws/install/setup.bash
+ros2 launch slam_toolbox_launch slam_toolbox.py
+
+4. run robot_control node

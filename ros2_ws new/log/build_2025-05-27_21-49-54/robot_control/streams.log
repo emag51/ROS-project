@@ -1,0 +1,80 @@
+[0.041s] Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake /home/emag51/ros2_ws/src/robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/robot_control
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.476s] -- The CXX compiler identification is GNU 11.4.0
+[0.503s] -- Detecting C compiler ABI info
+[0.767s] -- Detecting C compiler ABI info - done
+[0.795s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.796s] -- Detecting C compile features
+[0.798s] -- Detecting C compile features - done
+[0.810s] -- Detecting CXX compiler ABI info
+[1.120s] -- Detecting CXX compiler ABI info - done
+[1.151s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.152s] -- Detecting CXX compile features
+[1.154s] -- Detecting CXX compile features - done
+[1.162s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.079s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[2.230s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.251s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.284s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.560s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.570s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.902s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.006s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.206s] -- Looking for pthread.h
+[3.484s] -- Looking for pthread.h - found
+[3.485s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.775s] -- Found Threads: TRUE  
+[3.799s] -- Found rclc: 4.0.2 (/opt/ros/humble/share/rclc/cmake)
+[3.943s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.301s] -- Configuring done
+[4.337s] -- Generating done
+[4.340s] [33mCMake Warning:
+[4.343s]   Manually-specified variables were not used by the project:
+[4.343s] 
+[4.343s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.344s] 
+[4.344s] [0m
+[4.351s] -- Build files have been written to: /home/emag51/ros2_ws/build/robot_control
+[4.381s] Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake /home/emag51/ros2_ws/src/robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/emag51/ros2_ws/install/robot_control
+[4.387s] Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake --build /home/emag51/ros2_ws/build/robot_control -- -j4 -l4
+[4.571s] [ 50%] [32mBuilding C object CMakeFiles/robot_control.dir/src/robot_control.c.o[0m
+[4.836s] [01m[K/home/emag51/ros2_ws/src/robot_control/src/robot_control.c:[m[K In function ‘[01m[Kcmd_vel_callback[m[K’:
+[4.836s] [01m[K/home/emag51/ros2_ws/src/robot_control/src/robot_control.c:130:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[4.836s]   130 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+[4.836s]       |                           [01;35m[K^~~~[m[K
+[4.837s] [01m[K/home/emag51/ros2_ws/src/robot_control/src/robot_control.c:13:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’
+[4.837s]    12 | #include <geometry_msgs/msg/twist.h>
+[4.837s]   +++ |+[32m[K#include <math.h>[m[K
+[4.837s]    13 | 
+[4.838s] [01m[K/home/emag51/ros2_ws/src/robot_control/src/robot_control.c:130:27:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kfabs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+[4.838s]   130 |     int right_pwm = (int)([01;35m[Kfabs[m[K(linear_x) * 255 + fabs(angular_z) * 128);
+[4.838s]       |                           [01;35m[K^~~~[m[K
+[4.838s] [01m[K/home/emag51/ros2_ws/src/robot_control/src/robot_control.c:130:27:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kfabs[m[K’
+[4.933s] [100%] [32m[1mLinking C executable robot_control[0m
+[5.245s] [100%] Built target robot_control
+[5.286s] Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake --build /home/emag51/ros2_ws/build/robot_control -- -j4 -l4
+[5.322s] Invoking command in '/home/emag51/ros2_ws/build/robot_control': /usr/bin/cmake --install /home/emag51/ros2_ws/build/robot_control
+[5.351s] -- Install configuration: ""
+[5.351s] -- Installing: /home/emag51/ros2_ws/install/robot_control/lib/robot_control/robot_control
+[5.354s] -- Set runtime path of "/home/emag51/ros2_ws/install/robot_control/lib/robot_control/robot_control" to ""
+[5.354s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[5.355s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[5.356s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[5.356s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[5.357s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[5.357s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[5.358s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[5.359s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[5.360s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[5.362s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[5.364s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[5.364s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[5.365s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[5.365s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[5.366s] -- Installing: /home/emag51/ros2_ws/install/robot_control/share/robot_control/package.xml
+[5.369s] Invoked command in '/home/emag51/ros2_ws/build/robot_control' returned '0': /usr/bin/cmake --install /home/emag51/ros2_ws/build/robot_control

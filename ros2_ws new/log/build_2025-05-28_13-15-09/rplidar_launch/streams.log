@@ -1,0 +1,35 @@
+[4.308s] Invoking command in '/home/emag51/ros2_ws/src/rplidar_launch': PYTHONPATH=/home/emag51/ros2_ws/build/rplidar_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_launch build --build-base /home/emag51/ros2_ws/build/rplidar_launch/build install --record /home/emag51/ros2_ws/build/rplidar_launch/install.log --single-version-externally-managed install_data
+[5.313s] running egg_info
+[5.318s] creating ../../build/rplidar_launch/rplidar_launch.egg-info
+[5.319s] writing ../../build/rplidar_launch/rplidar_launch.egg-info/PKG-INFO
+[5.319s] writing dependency_links to ../../build/rplidar_launch/rplidar_launch.egg-info/dependency_links.txt
+[5.319s] writing entry points to ../../build/rplidar_launch/rplidar_launch.egg-info/entry_points.txt
+[5.319s] writing requirements to ../../build/rplidar_launch/rplidar_launch.egg-info/requires.txt
+[5.320s] writing top-level names to ../../build/rplidar_launch/rplidar_launch.egg-info/top_level.txt
+[5.320s] writing manifest file '../../build/rplidar_launch/rplidar_launch.egg-info/SOURCES.txt'
+[5.323s] reading manifest file '../../build/rplidar_launch/rplidar_launch.egg-info/SOURCES.txt'
+[5.329s] writing manifest file '../../build/rplidar_launch/rplidar_launch.egg-info/SOURCES.txt'
+[5.330s] running build
+[5.330s] running build_py
+[5.330s] creating /home/emag51/ros2_ws/build/rplidar_launch/build
+[5.330s] creating /home/emag51/ros2_ws/build/rplidar_launch/build/lib
+[5.331s] creating /home/emag51/ros2_ws/build/rplidar_launch/build/lib/rplidar_launch
+[5.331s] copying rplidar_launch/__init__.py -> /home/emag51/ros2_ws/build/rplidar_launch/build/lib/rplidar_launch
+[5.331s] running install
+[5.331s] running install_lib
+[5.337s] creating /home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages/rplidar_launch
+[5.337s] copying /home/emag51/ros2_ws/build/rplidar_launch/build/lib/rplidar_launch/__init__.py -> /home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages/rplidar_launch
+[5.338s] byte-compiling /home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages/rplidar_launch/__init__.py to __init__.cpython-310.pyc
+[5.338s] running install_data
+[5.338s] creating /home/emag51/ros2_ws/install/rplidar_launch/share/ament_index
+[5.338s] creating /home/emag51/ros2_ws/install/rplidar_launch/share/ament_index/resource_index
+[5.339s] creating /home/emag51/ros2_ws/install/rplidar_launch/share/ament_index/resource_index/packages
+[5.339s] copying resource/rplidar_launch -> /home/emag51/ros2_ws/install/rplidar_launch/share/ament_index/resource_index/packages
+[5.339s] copying package.xml -> /home/emag51/ros2_ws/install/rplidar_launch/share/rplidar_launch
+[5.339s] creating /home/emag51/ros2_ws/install/rplidar_launch/share/rplidar_launch/launch
+[5.340s] copying launch/rplidar_launch.py -> /home/emag51/ros2_ws/install/rplidar_launch/share/rplidar_launch/launch
+[5.340s] running install_egg_info
+[5.343s] Copying ../../build/rplidar_launch/rplidar_launch.egg-info to /home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages/rplidar_launch-0.0.1-py3.10.egg-info
+[5.346s] running install_scripts
+[5.425s] writing list of installed files to '/home/emag51/ros2_ws/build/rplidar_launch/install.log'
+[5.513s] Invoked command in '/home/emag51/ros2_ws/src/rplidar_launch' returned '0': PYTHONPATH=/home/emag51/ros2_ws/build/rplidar_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emag51/ros2_ws/install/rplidar_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_launch build --build-base /home/emag51/ros2_ws/build/rplidar_launch/build install --record /home/emag51/ros2_ws/build/rplidar_launch/install.log --single-version-externally-managed install_data
